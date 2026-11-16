@@ -17,7 +17,7 @@ class StaffSeeder extends Seeder
         $password = env('SEED_ADMIN_PASSWORD', 'ChangeMe!2026');
 
         $accounts = [
-            ['Super Admin', 'admin@example.com', Role::SuperAdmin],
+            ['Super Admin', 'benjastech@gmail.com', Role::SuperAdmin],
             ['Ada Administrator', 'manager@example.com', Role::Admin],
             ['Femi Finance', 'finance@example.com', Role::Finance],
             ['Vera Voting', 'voting@example.com', Role::VotingManager],
